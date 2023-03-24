@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-mobile-first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrcbq/portfolio-mobile-first.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrcbq/portfolio-mobile-first/issues"
+  },
+  "homepage": "https://github.com/mrcbq/portfolio-mobile-first#readme"
+}
