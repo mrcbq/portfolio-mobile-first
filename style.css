@@ -1,8 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-  }
-  
+}
+
 :root {
   --bg-main-mobile: #1c1a19;
   --bg-header: #3c3a39;
@@ -115,7 +115,8 @@ body {
   flex-grow: 0;
   text-decoration: none;
 }
-.social-media>li{
+
+.social-media > li {
   list-style: none;
   text-decoration: none;
 }
