@@ -1,0 +1,113 @@
+:root {
+  --bg-main-mobile: #1c1a19;
+  --bg-header: #3c3a39;
+  --body-bg-image: url("./images/illustration-header-mobile.png");
+}
+
+body {
+  height: 100vh;
+  min-width: 375px;
+  place-items: center;
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  background: var(--bg-header);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-left,
+.navbar-right {
+  color: #fff;
+  min-height: 24px;
+  min-width: 24px;
+}
+
+.navbar-left {
+  margin-left: 24px;
+}
+
+.navbar-right {
+  margin-right: 24px;
+  margin-top: 8px;
+  margin-bottom: 4px;
+}
+
+.logo-text {
+  font-family: "Roboto", sans-serif;
+  min-height: auto;
+}
+
+.main-mobile {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  background-color: var(--bg-main-mobile);
+  background-image: var(--body-bg-image);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-y: 110%;
+  background-clip: padding-box;
+  margin-bottom: 10em;
+}
+
+.title-orange {
+  font-family: "Crete Round", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #ff6b00;
+  font-size: 56px;
+  margin: 24px;
+  line-height: 114%;
+  letter-spacing: 0.37px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.role {
+  font-family: "Roboto", sans-serif;
+  color: #fff5e1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px;
+}
+
+.description {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 150%;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.social-media {
+  margin-left: 2em;
+  margin-right: 24 px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  width: 13em;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
