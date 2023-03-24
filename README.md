@@ -16,8 +16,6 @@ REQUIRED SECTIONS:
 
 OPTIONAL SECTIONS:
 - FAQ
-
-After you're finished please remove all the comments and instructions!
 -->
 
 <!-- TABLE OF CONTENTS -->
@@ -46,11 +44,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [setting a repo module 1] <a name="about-project"></a>
+# 📖 [setting a repo module 1] <a name="Portfolio Mobile first version"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This is the first mobile version of my portfolio
 
-**[setting a repo module 1]** is the first exercise for create a repo using the readme template form microiverse and setup a linter trought GH actions and using Hint as a local linter 
+**[setting a repo module 1]** There is the first exercise for create a repo using the readme template from MS and setup a linter trought GH actions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -61,8 +59,8 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li>HTML</li>
   </ul>
+    <li>css</li>
 </details>
-
 
 <!-- Features -->
 
@@ -70,11 +68,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[first repo for moduel 1]**
-- **[using gh actions as a linter]**
-- **[using hint as a local linter]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **[Portfolio web version Using only html and css]**
+- **[Responsive Desing]**
+- **[using gh actions as a linter and hint as a local linter]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,55 +85,25 @@ clone and use this template
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+A browser, and that's it.
+Please clone this repo, and forked it.
+Open index.html on your browser.
 
 ### Setup
 
 Clone this repository:
-git clone https://github.com/mrcbq/MS-Module-1.git to your desired folder and change the readme file for your fits.
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+git clone https://github.com/mrcbq/portfolio-mobile-first.git to your desired folder and change the readme file for your fits.
 
 ### Install
 
-Install this project with:
 Open Index.HTML on your favorite browser
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+No requires libraries extra.
 
 ### Usage
 
 To run the project, execute the following command:
 
 Open the index.html on your favorite browser.
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
 
 ### Run tests
 
@@ -155,21 +121,12 @@ Example command:
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
@@ -182,8 +139,6 @@ Example:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[implement react for the client side]**
 - [ ] **[use another linter]**
@@ -205,15 +160,13 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project consider donate a coffee
+If you like this project consider give me a like.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank to microverse 
 
@@ -223,11 +176,12 @@ I would like to thank to microverse
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+Q: How to use the responsive design for the mobiel version?
+A: Think mobile first.
 
 - **[How use the readme file]**
 
-  - [Please copy the contebnt and paste in your favorite editor, save as readme.md ]
+  - [Please copy the content and paste in your favorite editor, save as readme.md ]
 
 - **[How to ]**
 
@@ -241,7 +195,5 @@ I would like to thank to microverse
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-# portfolio-mv
+# portfolio-mobile-first
