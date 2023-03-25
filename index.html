@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap"
-        rel="stylesheet" />
+    <!-- adding fonts from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@400;500;700&family=Poppins&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <!-- add the styles file -->
     <link rel="stylesheet" href="style.css" />
 
     <title>mrcbq portfolio</title>
@@ -25,7 +27,7 @@
 
     <section class="main-container">
         <div class="main-mobile">
-            <h1 class="title-orange">
+            <h1 class="title-orange crete">
                 Hey There. <br />
                 I'm Marco.
             </h1>
@@ -66,6 +68,128 @@
             </div>
         </div>
     </section>
+
+    <section class="works">
+        <h2 class="section-title crete">My Recent Works</h2>
+        <div class="grid-container">
+            <div class="card-flex">
+                <img src="./images/Img Placeholder.png" alt="Image of my project" />
+                <div class="text-container">
+                    <h3 class="card-title crete">Multi-Post Stories</h3>
+                    <p class="card-description inter400">
+                        A daily selection of privately personalized reads; no accounts or
+                        sign-ups required. has been the industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a standard
+                        dummy text.
+                    </p>
+
+                    <ul class="tag inter500">
+                        <li class="tag-description">CSS</li>
+                        <li class="tag-description">HTML</li>
+                        <li class="tag-description">Bootstrap</li>
+                        <li class="tag-description">Ruby</li>
+                    </ul>
+
+                    <button type="button" class="see-prj inter700">See project</button>
+                </div>
+            </div>
+
+            <div class="card-flex proArt">
+                <div class="text-container">
+                    <h3 class="card-title crete font-white">Profesional Art Printing Data</h3>
+                    <p class="card-description inter400 font-white">
+                        A daily selection of privately personalized reads; no accounts or
+                        sign-ups required. Has been the industry's standard.
+                    </p>
+                    <ul class="tag">
+                        <li class="tag-description-2">HTML</li>
+                        <li class="tag-description-2">Bootstrap</li>
+                        <li class="tag-description-2">Ruby</li>
+                    </ul>
+                </div>
+                <button type="button" class="see-prj inter700 wide">See project</button>
+            </div>
+            <div class="card-flex proArt">
+                <div class="text-container">
+                    <h3 class="card-title crete font-white">Profesional Art Printing Data</h3>
+                    <p class="card-description inter400 font-white">
+                        A daily selection of privately personalized reads; no accounts or
+                        sign-ups required. Has been the industry's standard.
+                    </p>
+                    <ul class="tag">
+                        <li class="tag-description-2">HTML</li>
+                        <li class="tag-description-2">Bootstrap</li>
+                        <li class="tag-description-2">Ruby</li>
+                    </ul>
+                </div>
+                <button type="button" class="see-prj inter700 wide">See project</button>
+            </div>
+            <div class="card-flex proArt">
+                <div class="text-container">
+                    <h3 class="card-title crete font-white">Profesional Art Printing Data</h3>
+                    <p class="card-description font-white">
+                        A daily selection of privately personalized reads; no accounts or
+                        sign-ups required. Has been the industry's standard.
+                    </p>
+                    <ul class="tag">
+                        <li class="tag-description-2">HTML</li>
+                        <li class="tag-description-2">Bootstrap</li>
+                        <li class="tag-description-2">Ruby</li>
+                    </ul>
+                </div>
+                <button type="button" class="see-prj inter700 wide">See project</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2 class="about-title crete">About me</h2>
+        <p class="about-description inter400">
+            Hello I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like what
+            you see and have a project you need coded, don’t hesitate to contact me.
+        </p>
+        <button type="button" class="see-prj inter700">Get my resume</button>
+
+        <div class="div-line"></div>
+
+        <div class="skills">
+            <div class="skills-title">
+                <img src="./icons/Rectangle 55.png" alt="" />
+                <h2 class="skills-type inter700">Language</h2>
+            </div>
+            <ul class="skills-list">
+                <li class="list-item inter400">JavaScript</li>
+                <li class="list-item inter400">Ruby</li>
+                <li class="list-item inter400">HTML</li>
+                <li class="list-item inter400">CSS</li>
+            </ul>
+
+            <div class="skills-title">
+                <img src="./icons/Rectangle 56.png" alt="" />
+                <h2 class="skills-type inter700">Frameworks</h2>
+            </div>
+            <ul class="skills-list">
+                <li class="list-item inter400">React.js</li>
+                <li class="list-item inter400">Ruby on Rails</li>
+                <li class="list-item inter400">RSpec</li>
+                <li class="list-item inter400">Capybara</li>
+            </ul>
+
+            <div class="skills-title">
+                <img src="./icons/Rectangle 57.png" alt="" />
+                <h2 class="skills-type inter700">Skills</h2>
+            </div>
+            <ul class="skills-list">
+                <li class="list-item inter400">Database Management</li>
+                <li class="list-item inter400">Version Control</li>
+                <li class="list-item inter400">CLI</li>
+                <li class="list-item inter400">API Design</li>
+                <li class="list-item inter400">Web Development</li>
+            </ul>
+        </div>
+    </section>
+
 </body>
 
 </html>
