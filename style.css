@@ -8,7 +8,7 @@
   --bg-header: #3c3a39;
   --body-bg-image: url("./images/illustration-header-mobile.png");
   --proArt-card-bg: url("./images/Img Placeholder pro art.png");
-  --about-bg-image:url("./images/illustration-about-me-mobile.png")
+  --about-bg-image: url("./images/illustration-about-me-mobile.png");
 }
 
 .crete {
@@ -19,10 +19,12 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
+
 .inter500 {
   font-family: "Inter", sans-serif;
   font-weight: 500;
 }
+
 .inter700 {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -31,6 +33,7 @@
 .poppins {
   font-family: "Poppins", sans-serif;
 }
+
 .roboto {
   font-family: "Roboto", sans-serif;
 }
@@ -194,21 +197,22 @@ body {
   font-size: 32px;
   line-height: 44px;
   font-weight: 400;
-  color: #091E42;
+  color: #091e42;
 }
 
 .card-description {
-  color: #091E42;
+  color: #091e42;
   font-size: 16px;
 }
-.font-white{
-  color: #FFF;
+
+.font-white {
+  color: #fff;
 }
 
 .tag {
   list-style: none;
   display: flex;
-  color: #091E42;
+  color: #091e42;
   flex-wrap: wrap;
   gap: 12px;
   width: 100%;
@@ -243,7 +247,7 @@ body {
 
 .wide {
   width: 100%;
-  margin-top: 5% ;
+  margin-top: 5%;
 }
 
 .proArt {
@@ -254,9 +258,9 @@ body {
 }
 
 .see-prj:hover {
-  background-color: #FFF5E1;
-  color: #F55800;
-  border: 1px solid #F55800 ;
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .about {
