@@ -340,3 +340,7 @@ body {
   font-weight: 400;
   font-size: 22px;
 }
+
+.noTagList{
+  list-style: none;
+}
