@@ -107,20 +107,12 @@ Open the index.html on your favorite browser.
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+This project has no test configured yet, no worries it an only a basic html and css project...
 
 ### Deployment
 
 You can deploy this project using:
-
+Git Hub Pages: use this instructions:  https://livecode247.com/deploying-a-static-html-and-css-site-using-github-pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
