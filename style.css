@@ -340,7 +340,55 @@ body {
   font-weight: 400;
   font-size: 22px;
 }
-
 .noTagList {
   list-style: none;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #172B4D;
+  margin: 0 auto;
+  padding: 40px;
+}
+.contact-form-wrapper{
+  width: 100%;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+}
+.no-border{
+  border: none;
+  width: 100%;
+  height: 25%;
+}
+footer{
+  border-top: 1px solid #DFE1E6;
+  margin-top: 24px;
+  padding-top: 20px;
+}
+.footer-wrapper{
+  display: flex;
+  justify-content: center;
+  margin-left: 24px;
+}
+.footer-list{
+  width: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.noTagList2 {
+  list-style: none;
+}
+.noTagList3 {
+  list-style: none;
+}
+textarea{
+  border: none;
+  width: 327px;
+  height: 114px;
 }
