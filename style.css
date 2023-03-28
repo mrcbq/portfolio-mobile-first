@@ -361,6 +361,14 @@ body {
   flex-direction: column;
   padding: 0%;
 }
+
+.contact-form input {
+  padding: 3% 4%;
+  border-bottom: #1c1a19 1px solid;
+  font-size: 16px;
+  margin-bottom: 4%;
+}
+
 .no-border{
   border: none;
   width: 100%;
