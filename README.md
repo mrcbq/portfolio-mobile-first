@@ -126,6 +126,19 @@ Git Hub Pages: use this instructions:  https://livecode247.com/deploying-a-stati
 - Twitter: [@mrcbq](https://twitter.com/mrcbq)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/mrcbq)
 
+👤 **Joaquin Calle Aranzolo**
+
+- GitHub: [Joaquin123455](https://github.com/Joaquin123455)
+- Twitter: [@CalleJoaquinn](https://twitter.com/CalleJoaquinn)
+- LinkedIn: [Joaquin Calle Aranzolo](https://www.linkedin.com/in/joaquin-calle-aranzolo-695bba260/)
+
+👤 **Alvaro Iporre**
+
+- GitHub: [@alvaroiporre](https://github.com/alvaroiporre)
+- Twitter: [@alvaro.iporre](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alvaro-iporre-martiez-501533124/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

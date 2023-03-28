@@ -354,6 +354,7 @@ body {
 }
 .contact-form-wrapper{
   width: 100%;
+  padding-top: 119px;
 }
 
 .contact-form{
@@ -397,6 +398,5 @@ footer{
 }
 textarea{
   border: none;
-  width: 327px;
-  height: 114px;
+  background-color: #FbF8F7;
 }
