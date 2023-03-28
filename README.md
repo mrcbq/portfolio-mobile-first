@@ -138,7 +138,6 @@ Git Hub Pages: use this instructions:  https://livecode247.com/deploying-a-stati
 - Twitter: [@alvaro.iporre](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/alvaro-iporre-martiez-501533124/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
