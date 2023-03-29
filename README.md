@@ -120,7 +120,7 @@ Git Hub Pages: use this instructions:  https://livecode247.com/deploying-a-stati
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Marco Baquero**
 
 - GitHub: [@mrcbq](https://github.com/mrcbq)
 - Twitter: [@mrcbq](https://twitter.com/mrcbq)
@@ -144,7 +144,7 @@ Git Hub Pages: use this instructions:  https://livecode247.com/deploying-a-stati
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[implement react for the client side]**
+- [ ] **[implement desktop version]**
 - [ ] **[use another linter]**
 - [ ] **[implemented express or nest.js]**
 
