@@ -222,24 +222,17 @@
 
         <div class="contact-form-wrapper">
             <form class="contact-form" action="https://formspree.io/f/xnqygaek" method="post">
-                <!-- <ul> -->
-                <!-- <li class="noTagList noTagList2"> -->
                 <label for="name"></label>
-                <input class="no-border" type="text" id="name" name="user_name" placeholder="Full name">
-                <!-- </li> -->
-                <!-- <li class="noTagList noTagList2"> -->
+                <input class="no-border" type="text" id="name" name="user_name" placeholder="Full name" required>
+
                 <label for="mail"></label>
-                <input class="no-border" type="email" id="mail" name="user_mail" placeholder="Email address">
-                <!-- </li> -->
-                <!-- <li class="noTaglist noTagList3"> -->
+                <input class="no-border" type="email" id="mail" name="user_mail" placeholder="Email address" required>
+
                 <label for="msg"></label>
-                <textarea id="msg" name="user_message" class="inter400 no-border"
-                    placeholder="Write me something..."></textarea>
-                <!-- </li> -->
-                <!-- <li class="button noTaglist noTagList2"> -->
+                <textarea id="msg" name="user_message" class="inter400 no-border" maxlength="500"
+                    placeholder="Write me something..." required></textarea>
+
                 <button type="submit" class="inter700 contact-button"> Get in touch </button>
-                <!-- </li> -->
-                <!-- </ul> -->
             </form>
         </div>
 
