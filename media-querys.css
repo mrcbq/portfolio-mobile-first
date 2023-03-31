@@ -145,6 +145,33 @@
   .show-on-desktop {
     display: block;
   }
+
+  .text-and-button-wrapper > p {
+    width: 61%;
+  }
+  .skills {
+    flex-direction: row;
+    margin: 10% 0;
+    align-items: flex-start;
+  }
+  .contact {
+    margin: 0 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-form-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+  }
+  .contact h1 {
+    width: 45%;
+  }
+  .contact-button{
+        margin-left: 0;
+  }
 }
 
 /* Small Screens */

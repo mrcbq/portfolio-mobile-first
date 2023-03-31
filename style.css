@@ -92,10 +92,10 @@ header {
   text-decoration: none;
 }
 
+/* main section */
 .main-section {
   background-color: var(--bg-main-mobile);
 }
-
 .main {
   background-image: url("./images/Illustration-header.png");
   background-repeat: no-repeat;
@@ -150,7 +150,7 @@ header {
   text-decoration: none;
   padding: 0.3rem;
 }
-
+/* works section */
 .title-orange {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -323,20 +323,34 @@ header {
   color: #f55800;
   border: 1px solid #f55800;
 }
-
+/* about section */
 .about {
   /* overflow: hidden; */
   background-color: #1c1a19;
-  background-image: var(--about-bg-image);
+  display: flex;
+  flex-direction: column;
+}
+.about-me-wrapper {
+  background-image: url("./images/about\ me\ desktop.png");
   background-repeat: no-repeat;
-  background-position-x: right;
-  background-position-y: 17%;
+  background-size: 50%;
+  background-position: calc(100% + 4em + 10px) 80%;
+  height: 90vh;
+  /* background-position-x: right;
+  background-position-y: 17%; */
+}
+
+.text-and-button-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   gap: 24px;
-  padding: 120px 24px;
+  /* padding: 120px 24px; */
+  height: 100vh;
+  /* width: 100%; */
+  align-items: flex-start;
+  margin: 0 24px;
 }
 
 .about-title {
@@ -352,13 +366,15 @@ header {
 }
 
 .div-line {
-  width: 100%;
+  width: 90%;
   height: 1px;
   background-color: #fff;
-  margin: 150px 0;
+  margin: 15px 24px;
   align-self: center;
 }
-
+.about-me-button{
+  margin-top: 4%;
+}
 .skills {
   align-self: center;
   display: flex;
@@ -406,6 +422,7 @@ header {
   list-style: none;
 }
 
+/* contact section */
 .contact {
   display: flex;
   flex-direction: column;
