@@ -96,6 +96,7 @@ header {
 .main-section {
   background-color: var(--bg-main-mobile);
 }
+
 .main {
   background-image: url("./images/Illustration-header.png");
   background-repeat: no-repeat;
@@ -150,6 +151,7 @@ header {
   text-decoration: none;
   padding: 0.3rem;
 }
+
 /* works section */
 .title-orange {
   font-family: "Crete Round", sans-serif;
@@ -323,6 +325,7 @@ header {
   color: #f55800;
   border: 1px solid #f55800;
 }
+
 /* about section */
 .about {
   /* overflow: hidden; */
@@ -330,12 +333,14 @@ header {
   display: flex;
   flex-direction: column;
 }
+
 .about-me-wrapper {
   background-image: url("./images/about\ me\ desktop.png");
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: calc(100% + 4em + 10px) 80%;
   height: 90vh;
+
   /* background-position-x: right;
   background-position-y: 17%; */
 }
@@ -346,11 +351,12 @@ header {
   align-items: flex-start;
   justify-content: center;
   gap: 24px;
-  /* padding: 120px 24px; */
   height: 100vh;
-  /* width: 100%; */
-  align-items: flex-start;
   margin: 0 24px;
+
+  /* padding: 120px 24px; */
+
+  /* width: 100%; */
 }
 
 .about-title {
@@ -372,9 +378,11 @@ header {
   margin: 15px 24px;
   align-self: center;
 }
-.about-me-button{
+
+.about-me-button {
   margin-top: 4%;
 }
+
 .skills {
   align-self: center;
   display: flex;
