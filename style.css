@@ -104,17 +104,21 @@ header {
   margin-top: 24px;
   margin-left: 24px;
   margin-right: 24px;
+  padding: 3%;
   /* width: 20%; */
   /* flex-direction: row; */
   /* align-items: center; */
   /* justify-content: space-between; */
-  padding: 3%;
   /* flex: none; */
   /* order: 3; */
   /* flex-grow: 0; */
   /* text-decoration: none; */
 }
-
+.social-media > li {
+  list-style: none;
+  text-decoration: none;
+  padding: .3rem;
+}
 .title-orange {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -122,11 +126,11 @@ header {
   color: #ff6b00;
   font-size: 56px;
   margin: 24px;
-  /* line-height: 114%; */
-  /* letter-spacing: 0.37px; */
   flex: none;
   order: 0;
   flex-grow: 0;
+  /* line-height: 114%; */
+  /* letter-spacing: 0.37px; */
 }
 
 .role {
@@ -159,12 +163,6 @@ header {
   max-width: 50vh;
 }
 
-.social-media > li {
-  list-style: none;
-  text-decoration: none;
-  padding: .3rem;
-}
-
 .works {
   display: flex;
   flex-direction: column;
@@ -173,8 +171,11 @@ header {
   gap: 80px;
   padding: 120px 0;
 }
+.works-title-div{
+  display: none;
+}
 
-.section-title {
+.section-works-title {
   line-height: 52px;
   color: #1c1a19;
   font-weight: 400;
