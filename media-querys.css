@@ -1,0 +1,50 @@
+/* Big screens */
+@media (min-width: 768px) {
+  .burguer-img-toggle {
+    display: none;
+  }
+
+  .navbar-menu-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-menu-mobile li {
+    padding: 0 15px;
+    align-items: center;
+  }
+  .main{
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-and-social-wrapper {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: flex-start;
+    padding-right: 23%;
+    margin: 0 auto;
+  }
+  .text-wrapper {
+    grid-area: 1 span 1;
+    order: 1;
+  }
+  .social-media {
+    /* display: flex; */
+    grid-area: 0 span 1;
+    flex-direction: column;
+    order: 0;
+  }
+}
+
+/* Small Screens */
+@media (max-width: 768px) {
+  .navbar-menu-mobile {
+    display: none;
+  }
+  .burguer-img-toggle {
+    margin: 0 24px;
+  }
+}

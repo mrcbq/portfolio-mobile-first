@@ -15,60 +15,83 @@
 
     <!-- add the styles file -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./media-querys.css">
 
     <title>mrcbq portfolio</title>
 </head>
 
 <body>
-    <header class="navbar">
-        <a class="navbar-left" href="index.html">My Logo</a>
-        <nav class="navbar-right">
-            <img src="./icons/Icon - Menu.png" alt="burguer menu" />
+    <header>
+        <nav class="navbar">
+
+            <a class="navbar-left" href="index.html">My Logo</a>
+
+            <img class="burguer-img-toggle" src="./icons/Icon - Menu.png" alt="burguer menu" />
+
+            <!-- add the desktop version items -->
+            <ul class="noTagList navbar-menu-mobile navbar-right inter500">
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li><img src="./icons/Icon - Mail.png" alt="mail icon"></li>
+            </ul>
         </nav>
     </header>
 
-    <section class="main-container">
-        <div class="main-mobile">
-            <h1 class="title-orange crete">
-                Hey There. <br />
-                I'm Marco.
-            </h1>
-            <h2 class="role">I'm a Software Developer</h2>
-            <p class="description">
-                I can help you build a product , feature or website Look through some
-                of my work and experience! If you like what you see and have a project
-                you need coded, don’t hesitate to contact me.
-            </p>
-            <div class="social-media">
-                <ul class="social-media">
-                    <li>
-                        <a href="http://www.github.com/mrcbq">
-                            <img src="./icons/Icon -GitHub.png" alt="Github Icon" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/mrcbq/">
-                            <img src="./icons/Icon - Linkedin.png" alt="Linkedin Icon" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.angellist.com/mrcbq">
-                            <img src="./icons/Icon - Angelist.png" alt="Angelist Icon" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.twitter.com/mrcbq">
-                            <img src="./icons/Icon - Twitter.png" alt="Twitter Icon" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.medium.com/mrcbq">
-                            <img src="./icons/Icon - Medium.png" alt="Medium Icon" />
-                        </a>
-                    </li>
-                </ul>
+    <section class="main-section">
+
+        <div class="main">
+
+            <div class="text-and-social-wrapper">
+
+                <div class="text-wrapper">
+                    <h1 class="title-orange crete">
+                        Hey There. <br />
+                        I'm Marco.
+                    </h1>
+
+                    <h2 class="role">I'm a Software Developer</h2>
+
+                    <p class="description">
+                        I can help you build a product , feature or website Look through some
+                        of my work and experience! If you like what you see and have a project
+                        you need coded, don’t hesitate to contact me.
+                    </p>
+                </div>
+
+                <div class="social-media">
+                    <ul class="social-media">
+                        <li>
+                            <a href="http://www.github.com/mrcbq">
+                                <img src="./icons/Icon -GitHub.png" alt="Github Icon" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/mrcbq/">
+                                <img src="./icons/Icon - Linkedin.png" alt="Linkedin Icon" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.angellist.com/mrcbq">
+                                <img src="./icons/Icon - Angelist.png" alt="Angelist Icon" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.twitter.com/mrcbq">
+                                <img src="./icons/Icon - Twitter.png" alt="Twitter Icon" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.medium.com/mrcbq">
+                                <img src="./icons/Icon - Medium.png" alt="Medium Icon" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
+
     </section>
 
     <section class="works">
