@@ -37,6 +37,9 @@
 .roboto {
   font-family: "Roboto", sans-serif;
 }
+.display-none {
+  display: none;
+}
 
 body {
   height: 100vh;
