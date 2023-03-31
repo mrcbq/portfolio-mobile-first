@@ -79,29 +79,39 @@
 
   .grid-container {
     display: grid;
-    margin: 0 24px;
     max-width: 100%;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* margin: 0 24px; */
+    
     /* gap: 24px; */
   }
+
   .first-card-flex {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    /* width: 100%; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    /* gap: 24px; */
   }
+
   .card-flex {
     display: flex;
     justify-content: flex-end;
+
     /* width: 100%; */
+
     /* flex-direction: column; */
+
     /* align-items: center; */
+
     /* gap: 24px; */
   }
-/* queda por arrelar la primer tarjeta ques evea granded y que los botones no se vean, o que se vean solamente al hacer hover sobre el proyecto */
+  .proArt {
+    padding-bottom: 14px;
+  }
+  .desktop-display-none {
+    display: none;
+  }
+  .card1.proArt{
+    background-image: url("./images/card1.png");
+  }
 }
 
 /* Small Screens */

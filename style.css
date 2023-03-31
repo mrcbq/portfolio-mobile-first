@@ -214,19 +214,21 @@ header {
   padding-bottom: 24px;
   border-bottom: 1px solid #212121;
 }
-.first-work-great{
+
+.first-work-great {
   display: contents;
 }
-.first-card-flex{
+
+.first-card-flex {
   display: contents;
 }
 
 .grid-container {
   display: grid;
-  margin: 0 24px;
   max-width: 360px;
   grid-template-columns: 1fr;
   gap: 24px;
+  /* margin: 0 24px; */
 }
 
 .card-flex {
@@ -234,7 +236,7 @@ header {
   width: 100%;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 24px;
 }
 
