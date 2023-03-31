@@ -139,7 +139,9 @@
   .card-type3 {
     background-image: url(./images/card\ type3.png);
   }
-
+  .hide-on-desktop {
+    display: none;
+  }
   .show-on-desktop {
     display: block;
   }
