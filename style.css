@@ -41,13 +41,16 @@
 body {
   height: 100vh;
   min-width: 375px;
+
   /* max-width: 768px; */
   place-items: center;
 }
+
 header {
   width: 100%;
   position: fixed;
 }
+
 .navbar {
   display: flex;
   background-color: var(--bg-header);
@@ -56,10 +59,15 @@ header {
   padding: 10px;
   height: 44px;
   color: #fff;
+
   /* margin: 0 24px; */
+
   /* margin-top: 0; */
+
   /* color: #fff; */
+
   /* margin: 0 24px; */
+
   /* min-height: 24px; */
 }
 
@@ -67,24 +75,30 @@ header {
 .navbar-right {
   color: #fff;
   margin: 0 24px;
+
   /* min-height: 24px; */
+
   /* min-width: 24px; */
 }
 
 .navbar-left {
   font-family: "Roboto", sans-serif;
+
   /* min-height: auto; */
   text-decoration: none;
 }
+
 .main-section {
   background-color: var(--bg-main-mobile);
 }
+
 .main {
   background-image: url("./images/Illustration-header.png");
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: calc(100% + 1em + 10px) 100%;
 }
+
 .text-and-social-wrapper {
   display: flex;
   flex-direction: column;
@@ -92,33 +106,47 @@ header {
   width: 100%;
   align-items: flex-start;
   justify-content: center;
-  margin: 0 12px ;
+  margin: 0 12px;
 }
+
 .text-wrapper {
   /* flex-direction: column; */
+
   /* gap: 12px; */
+
   /* justify-content: center; */
 }
-.social-media{
+
+.social-media {
   display: flex;
   margin-top: 24px;
   margin-left: 24px;
   margin-right: 24px;
   padding: 3%;
+
   /* width: 20%; */
+
   /* flex-direction: row; */
+
   /* align-items: center; */
+
   /* justify-content: space-between; */
+
   /* flex: none; */
+
   /* order: 3; */
+
   /* flex-grow: 0; */
+
   /* text-decoration: none; */
 }
+
 .social-media > li {
   list-style: none;
   text-decoration: none;
-  padding: .3rem;
+  padding: 0.3rem;
 }
+
 .title-orange {
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -129,7 +157,9 @@ header {
   flex: none;
   order: 0;
   flex-grow: 0;
+
   /* line-height: 114%; */
+
   /* letter-spacing: 0.37px; */
 }
 
@@ -171,7 +201,8 @@ header {
   gap: 80px;
   padding: 120px 0;
 }
-.works-title-div{
+
+.works-title-div {
   display: none;
 }
 
