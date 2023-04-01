@@ -1,7 +1,11 @@
 /* Big screens */
 @media (min-width: 768px) {
-  header.nav {
-    margin-left: 24px;
+  .navbar {
+    padding: 10px 130px;
+    margin-left: 0px;
+  }
+  .navbar-right{
+    margin: 0;
   }
 
   .burguer-img-toggle {
@@ -113,9 +117,8 @@
 
   .card1 > button {
     display: block;
-  } 
- 
-  
+  }
+
   /* body
     > section.works
     > div.grid-container
@@ -164,7 +167,7 @@
     > ul:hover {
     display: none;
   } */
-  
+
   .card-type1 {
     background-image: url(./images/card\ type1.png);
   }
@@ -191,12 +194,41 @@
 
   .skills {
     flex-direction: row;
-    margin: 10% 0;
-    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1155px;
+    /* margin: 10% 0;
+    align-items: flex-start; */
+  }
+  .skills-title {
+    align-items: stretch;
+  }
+  .skill-ul {
+    justify-content: flex-start;
+  }
+  .list-item {
+    text-align: left;
+  }
+  .about{
+    padding: 0px 130px;
+    height: auto;
+    background-color: #262626;
+  }
+  .about-me-wrapper {
+    background-color: unset;
+    /* padding: 20px 130px 0px 130px;   */
+  }
+  .text-and-button-wrapper{
+    margin: 0;
   }
 
   .contact {
-    margin: 0 24px;
+    /* margin: 0 24px; */
+    margin: 0;
+    padding: 0px 130px 160px 130px;    
+    /* padding-top: 140px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 150px; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -215,6 +247,9 @@
 
   .contact-button {
     margin-left: 0;
+  }
+  .footer-list {
+    justify-content: center;
   }
 }
 

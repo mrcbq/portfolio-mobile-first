@@ -283,14 +283,12 @@ header {
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
-}
 
-.about-me-wrapper {
-  background-image: url("./images/about\ me\ desktop.png");
+  background-image: url("./images/Frame.svg");
   background-repeat: no-repeat;
   background-size: 50%;
-  background-position: calc(100% + 4em + 10px) 80%;
-  height: 90vh;
+  background-position: calc(100% + 4em + 10px) 30%;
+  /* height: 90vh; */
 }
 
 .text-and-button-wrapper {
@@ -336,22 +334,28 @@ header {
   justify-content: center;
   align-items: stretch;
   text-align: center;
-  list-style: none;
+  padding-bottom: 70px;
 }
 
 .skills-title {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.skill-ul {
   width: 100%;
   margin: 10px 0;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 12px;
 }
 
 .skills-type {
-  font-size: 32px;
+  font-size: 25px;
   color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
 }
 
 .skills-list {
@@ -359,15 +363,16 @@ header {
   margin-top: 2rem;
   align-self: center;
   text-align: center;
-  list-style: none;
   display: flex;
   flex-direction: column;
   gap: 32px;
+  list-style: none;
 }
 
 .list-item {
-  font-weight: 400;
   font-size: 22px;
+  text-align: center;
+  font-weight: 400;
 }
 
 .noTagList {
@@ -464,11 +469,15 @@ footer {
 .footer-wrapper {
   display: flex;
   justify-content: center;
-  margin-left: 24px;
+  gap: 10px;
+  /* margin-left: 24px; */
 }
 
 .footer-list {
-  width: 100vh;
+  /* width: 100vh; */
   display: flex;
   justify-content: space-evenly;
+}
+body > footer > div > ul > li {
+  padding: 10px;
 }
