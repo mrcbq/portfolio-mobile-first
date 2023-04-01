@@ -201,6 +201,11 @@ body > footer > div > ul > li {
   align-items: center;
   justify-content: flex-end;
   gap: 24px;
+  /* anadido de proart */
+  background-image: var(--proArt-card-bg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 70px;
 }
 
 .text-container {
@@ -268,13 +273,13 @@ body > footer > div > ul > li {
   width: 100%;
   margin-top: 5%;
 }
-
-.proArt {
+/* deshabilitado para ver el bug */
+/* .proArt {
   background-image: var(--proArt-card-bg);
   background-position: center;
   background-size: cover;
   padding-top: 70px;
-}
+} */
 
 .see-prj:hover {
   background-color: #fff5e1;
