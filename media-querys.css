@@ -222,7 +222,7 @@
     display: block;
   }
 
-  .text-and-button-wrapper > p {
+  .text-and-button-wrapper>p {
     width: 61%;
   }
 
@@ -300,6 +300,20 @@
   .footer-list {
     justify-content: center;
   }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
 }
 
 /* Small Screens */
@@ -311,4 +325,5 @@
   .burguer-img-toggle {
     margin: 0 24px;
   }
+
 }
