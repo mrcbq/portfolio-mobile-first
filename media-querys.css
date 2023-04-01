@@ -4,7 +4,7 @@
     padding: 10px 130px;
     margin-left: 0px;
   }
-  .navbar-right{
+  .navbar-right {
     margin: 0;
   }
 
@@ -179,6 +179,15 @@
   .card-type3 {
     background-image: url(./images/card\ type3.png);
   }
+  .proArt:hover .see-prj {
+    display: block;
+  }
+  .proArt:hover {
+    background: url(./images/card1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+  }
 
   .hide-on-desktop {
     display: none;
@@ -208,7 +217,7 @@
   .list-item {
     text-align: left;
   }
-  .about{
+  .about {
     padding: 0px 130px;
     height: auto;
     background-color: #262626;
@@ -217,14 +226,14 @@
     background-color: unset;
     /* padding: 20px 130px 0px 130px;   */
   }
-  .text-and-button-wrapper{
+  .text-and-button-wrapper {
     margin: 0;
   }
 
   .contact {
     /* margin: 0 24px; */
     margin: 0;
-    padding: 0px 130px 160px 130px;    
+    padding: 0px 130px 160px 130px;
     /* padding-top: 140px;
     padding-left: 130px;
     padding-right: 130px;
