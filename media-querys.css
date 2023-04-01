@@ -5,8 +5,39 @@
     margin-left: 0;
   }
 
+  .navbar-left {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
   .navbar-right {
     margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .title-orange {
+    margin: 0;
+    font-size: 72px;
+  }
+
+  .role {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    padding-top: 24px;
+  }
+
+  .description {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 24px;
   }
 
   .burguer-img-toggle {
@@ -60,6 +91,14 @@
 
   .first-work-img {
     max-width: 50%;
+  }
+
+  .card-title-desktop {
+    font-size: 40px;
+  }
+
+  .card-description-desktop {
+    font-size: 20px;
   }
 
   .works-title {
@@ -197,6 +236,10 @@
     align-items: stretch;
   }
 
+  .skills-type {
+    font-size: 32px;
+  }
+
   .skill-ul {
     justify-content: flex-start;
   }
@@ -217,6 +260,11 @@
 
   .about-description {
     font-size: 20px;
+  }
+
+  .div-line {
+    width: 100%;
+    margin-bottom: 146px;
   }
 
   .text-and-button-wrapper {
