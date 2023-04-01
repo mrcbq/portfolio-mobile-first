@@ -41,7 +41,6 @@
   }
 
   .social-media {
-    /* display: flex; */
     grid-area: 0 span 1;
     flex-direction: column;
     order: 0;
@@ -49,10 +48,11 @@
 
   /* works section */
   .works {
-    width: 90%;
-    margin: auto 24px;
+    margin: auto 140px;
   }
-
+  .first-work-img {
+    max-width: 50%;
+  }
   .works-title {
     width: 100%;
     display: flex;
@@ -80,16 +80,13 @@
   .grid-container {
     display: grid;
     max-width: 100%;
+    min-height: 300px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
-    /* margin: 0 24px; */
-
-    /* gap: 24px; */
   }
 
   .first-card-flex {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
   }
 
   .card-flex {
@@ -116,26 +113,66 @@
 
   .card1 > button {
     display: block;
-  }
+  } 
+ 
+  
+  /* body
+    > section.works
+    > div.grid-container
+    > div.card-flex.proArt.card-type3.card1>background-image:hover {
+    display: none;
+  } */
 
+  /* .body
+    > section.works
+    > div.grid-container
+    > div.card-flex.proArt.card-type3.card1
+    > div
+    > h3.card-title.crete.font-white.display-none.show-on-desktop:hover {
+    display: block;
+    background-color: aliceblue;
+  }
+  .body
+    > section.works
+    > div.grid-container
+    > div.card-flex.proArt.card-type3.card1
+    > div:hover {
+    display: none;
+  }
+  .body
+    > section.works
+    > div.grid-container
+    > div.card-flex.proArt.card-type3.card1
+    > div
+    > h3.card-title.crete.font-white.display-none.show-on-desktop:hover {
+    display: none;
+  } */
+  /* .body
+    > section.works
+    > div.grid-container
+    > div.card-flex.proArt.card-type3.card1
+    > div
+    > p:hover {
+      display: block;
+      background-color: aliceblue;
+  } */
+  /* .body
+    > section.works
+    > div.grid-container
+    > div.card-flex.proArt.card-type3.card1
+    > div
+    > ul:hover {
+    display: none;
+  } */
+  
   .card-type1 {
     background-image: url(./images/card\ type1.png);
   }
 
-  /* .card-type1 > div > h3 {
-    display: none;
-  } */
-
-  /* .card-type1 > div > .show-on-desktop {
-    display: block;
-  } */
   .card-type2 {
     background-image: url(./images/card\ type2.png);
   }
 
-  /* .card-type2 > div > .show-on-desktop {
-    display: block;
-  } */
   .card-type3 {
     background-image: url(./images/card\ type3.png);
   }

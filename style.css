@@ -45,8 +45,6 @@
 body {
   height: 100vh;
   min-width: 375px;
-
-  /* max-width: 768px; */
   place-items: center;
 }
 
@@ -63,32 +61,16 @@ header {
   padding: 10px;
   height: 44px;
   color: #fff;
-
-  /* margin: 0 24px; */
-
-  /* margin-top: 0; */
-
-  /* color: #fff; */
-
-  /* margin: 0 24px; */
-
-  /* min-height: 24px; */
 }
 
 .navbar-left,
 .navbar-right {
   color: #fff;
   margin: 0 24px;
-
-  /* min-height: 24px; */
-
-  /* min-width: 24px; */
 }
 
 .navbar-left {
   font-family: "Roboto", sans-serif;
-
-  /* min-height: auto; */
   text-decoration: none;
 }
 
@@ -114,36 +96,12 @@ header {
   margin: 0 12px;
 }
 
-.text-wrapper {
-  /* flex-direction: column; */
-
-  /* gap: 12px; */
-
-  /* justify-content: center; */
-}
-
 .social-media {
   display: flex;
   margin-top: 24px;
   margin-left: 24px;
   margin-right: 24px;
   padding: 3%;
-
-  /* width: 20%; */
-
-  /* flex-direction: row; */
-
-  /* align-items: center; */
-
-  /* justify-content: space-between; */
-
-  /* flex: none; */
-
-  /* order: 3; */
-
-  /* flex-grow: 0; */
-
-  /* text-decoration: none; */
 }
 
 .social-media > li {
@@ -163,10 +121,6 @@ header {
   flex: none;
   order: 0;
   flex-grow: 0;
-
-  /* line-height: 114%; */
-
-  /* letter-spacing: 0.37px; */
 }
 
 .role {
@@ -234,8 +188,6 @@ header {
   max-width: 360px;
   grid-template-columns: 1fr;
   gap: 24px;
-
-  /* margin: 0 24px; */
 }
 
 .card-flex {
@@ -328,7 +280,6 @@ header {
 
 /* about section */
 .about {
-  /* overflow: hidden; */
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
@@ -340,9 +291,6 @@ header {
   background-size: 50%;
   background-position: calc(100% + 4em + 10px) 80%;
   height: 90vh;
-
-  /* background-position-x: right;
-  background-position-y: 17%; */
 }
 
 .text-and-button-wrapper {
@@ -353,10 +301,6 @@ header {
   gap: 24px;
   height: 100vh;
   margin: 0 24px;
-
-  /* padding: 120px 24px; */
-
-  /* width: 100%; */
 }
 
 .about-title {
@@ -439,8 +383,6 @@ header {
   align-content: center;
   justify-content: space-between;
   color: #172b4d;
-
-  /* margin: 0 auto; */
   margin-top: 20%;
   margin-bottom: 20%;
 }
@@ -453,10 +395,6 @@ header {
   width: 85%;
   padding-top: 119px;
   display: flex;
-
-  /* align-items: center; */
-
-  /* justify-content: center; */
   margin: 0 auto;
 }
 
