@@ -314,6 +314,12 @@
       opacity: 0;
     }
   }
+  .navbar-left {
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    
+  }
 }
 
 /* Small Screens */
