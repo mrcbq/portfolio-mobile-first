@@ -104,6 +104,10 @@ header {
   padding: 3%;
 }
 
+body > footer > div > ul > li {
+  padding: 10px;
+}
+
 .social-media > li {
   list-style: none;
   text-decoration: none;
@@ -283,11 +287,11 @@ header {
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
-
   background-image: url("./images/Frame.svg");
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: calc(100% + 4em + 10px) 30%;
+
   /* height: 90vh; */
 }
 
@@ -342,6 +346,7 @@ header {
   flex-direction: column;
   gap: 44px;
 }
+
 .skill-ul {
   width: 100%;
   margin: 10px 0;
@@ -475,7 +480,4 @@ footer {
 .footer-list {
   display: flex;
   justify-content: space-evenly;
-}
-body > footer > div > ul > li {
-  padding: 10px;
 }

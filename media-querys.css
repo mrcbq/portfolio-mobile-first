@@ -2,8 +2,9 @@
 @media (min-width: 768px) {
   .navbar {
     padding: 10px 130px;
-    margin-left: 0px;
+    margin-left: 0;
   }
+
   .navbar-right {
     margin: 0;
   }
@@ -54,9 +55,11 @@
   .works {
     margin: auto 140px;
   }
+
   .first-work-img {
     max-width: 50%;
   }
+
   .works-title {
     width: 100%;
     display: flex;
@@ -122,27 +125,35 @@
     background-repeat: no-repeat;
     transition: all 0.5s ease-in-out;
   }
+
   .proArt:hover .see-prj {
     display: block;
   }
+
   .card1:hover .card1-hidde {
     display: none;
   }
+
   .card2:hover .card2-hidde {
     display: none;
   }
+
   .card3:hover .card3-hidde {
     display: none;
   }
+
   .card4:hover .card4-hidde {
     display: none;
   }
+
   .card5:hover .card5-hidde {
     display: none;
   }
+
   .card6:hover .card6-hidde {
     display: none;
   }
+
   .hide-on-desktop {
     display: none;
   }
@@ -159,34 +170,42 @@
     flex-direction: row;
     justify-content: space-between;
     max-width: 1155px;
+
     /* margin: 10% 0;
     align-items: flex-start; */
   }
+
   .skills-title {
     align-items: stretch;
   }
+
   .skill-ul {
     justify-content: flex-start;
   }
+
   .list-item {
     text-align: left;
   }
+
   .about {
-    padding: 0px 130px;
+    padding: 0 130px;
     height: auto;
     background-color: #262626;
   }
+
   .about-me-wrapper {
     background-color: unset;
+
     /* padding: 20px 130px 0px 130px;   */
   }
+
   .text-and-button-wrapper {
     margin: 0;
   }
 
   .contact {
     margin: 0;
-    padding: 0px 130px 160px 130px;
+    padding: 0 130px 160px 130px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -206,6 +225,7 @@
   .contact-button {
     margin-left: 0;
   }
+
   .footer-list {
     justify-content: center;
   }
