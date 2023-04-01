@@ -98,97 +98,51 @@
     justify-content: flex-end;
   }
 
-  .proArt {
-    padding-bottom: 14px;
-  }
-
   .desktop-display-none {
     display: none;
   }
 
-  .card1 {
-    background-image: url("./images/card1.png");
-    padding-bottom: 0;
-  }
-
-  .card1 > .text-container {
-    display: none;
-  }
-
-  .card1 > button {
-    display: block;
-  }
-
-  /* body
-    > section.works
-    > div.grid-container
-    > div.card-flex.proArt.card-type3.card1>background-image:hover {
-    display: none;
-  } */
-
-  /* .body
-    > section.works
-    > div.grid-container
-    > div.card-flex.proArt.card-type3.card1
-    > div
-    > h3.card-title.crete.font-white.display-none.show-on-desktop:hover {
-    display: block;
-    background-color: aliceblue;
-  }
-  .body
-    > section.works
-    > div.grid-container
-    > div.card-flex.proArt.card-type3.card1
-    > div:hover {
-    display: none;
-  }
-  .body
-    > section.works
-    > div.grid-container
-    > div.card-flex.proArt.card-type3.card1
-    > div
-    > h3.card-title.crete.font-white.display-none.show-on-desktop:hover {
-    display: none;
-  } */
-  /* .body
-    > section.works
-    > div.grid-container
-    > div.card-flex.proArt.card-type3.card1
-    > div
-    > p:hover {
-      display: block;
-      background-color: aliceblue;
-  } */
-  /* .body
-    > section.works
-    > div.grid-container
-    > div.card-flex.proArt.card-type3.card1
-    > div
-    > ul:hover {
-    display: none;
-  } */
-
-  .card-type1 {
-    background-image: url(./images/card\ type1.png);
-  }
-
-  .card-type2 {
-    background-image: url(./images/card\ type2.png);
-  }
-
-  .card-type3 {
-    background-image: url(./images/card\ type3.png);
-  }
-  .proArt:hover .see-prj {
-    display: block;
-  }
-  .proArt:hover {
-    background: url(./images/card1.png);
+  .card-type1:hover {
+    background: url("./images/card-type1.svg");
     background-size: cover;
     background-repeat: no-repeat;
     transition: all 0.5s ease-in-out;
   }
 
+  .card-type2:hover {
+    background-image: url("./images/card-type2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .card-type3:hover {
+    background-image: url("./images/card-type3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+  }
+  .proArt:hover .see-prj {
+    display: block;
+  }
+  .card1:hover .card1-hidde {
+    display: none;
+  }
+  .card2:hover .card2-hidde {
+    display: none;
+  }
+  .card3:hover .card3-hidde {
+    display: none;
+  }
+  .card4:hover .card4-hidde {
+    display: none;
+  }
+  .card5:hover .card5-hidde {
+    display: none;
+  }
+  .card6:hover .card6-hidde {
+    display: none;
+  }
   .hide-on-desktop {
     display: none;
   }
@@ -231,13 +185,8 @@
   }
 
   .contact {
-    /* margin: 0 24px; */
     margin: 0;
     padding: 0px 130px 160px 130px;
-    /* padding-top: 140px;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-bottom: 150px; */
     display: flex;
     flex-direction: row;
     align-items: center;

@@ -470,11 +470,9 @@ footer {
   display: flex;
   justify-content: center;
   gap: 10px;
-  /* margin-left: 24px; */
 }
 
 .footer-list {
-  /* width: 100vh; */
   display: flex;
   justify-content: space-evenly;
 }
