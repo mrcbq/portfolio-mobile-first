@@ -80,7 +80,7 @@ OPTIONAL SECTIONS:
 
 > Please visit my application in following link.
 
-- <a href="https://mrcbq.github.io/portfolio-mobile-first/">
+- <p align="left"><a href="https://mrcbq.github.io/portfolio-mobile-first/">https://mrcbq.github.io/portfolio-mobile-first/</a></p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
