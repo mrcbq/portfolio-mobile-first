@@ -10,6 +10,9 @@
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 700;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
   }
 
   .navbar-right {
@@ -222,7 +225,7 @@
     display: block;
   }
 
-  .text-and-button-wrapper>p {
+  .text-and-button-wrapper > p {
     width: 61%;
   }
 
@@ -314,12 +317,6 @@
       opacity: 0;
     }
   }
-  .navbar-left {
-    animation-name: fade;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    
-  }
 }
 
 /* Small Screens */
@@ -331,5 +328,4 @@
   .burguer-img-toggle {
     margin: 0 24px;
   }
-
 }
