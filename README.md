@@ -148,6 +148,11 @@ Git Hub Pages: use this instructions:  https://livecode247.com/deploying-a-stati
 - Twitter: [@alvaro.iporre](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/alvaro-iporre-martiez-501533124/)
 
+> 👤 **Gardimy Charles**
+- GitHub: [@Gardimy](https://github.com/Gardimy)
+- Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
+- LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

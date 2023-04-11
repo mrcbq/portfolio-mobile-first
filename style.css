@@ -499,6 +499,11 @@ footer {
   position: fixed;
   top: 100%;
 }
+
+#mobile-menu-list {
+  margin-top: 40px;
+}
+
 .mobile-menu-link {
   color: #fff5e1;
   font-size: 32px;

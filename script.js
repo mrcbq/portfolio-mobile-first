@@ -4,7 +4,7 @@ const mobileMenuOptions = document.getElementById('mobile-menu-list').querySelec
 
 const openMobileMenu = () => {
     document.getElementById('mobile-menu').classList.add('show');
-
+    document.querySelector('header').classList.add('hide')
     let sections = document.querySelectorAll('section');
     sections.forEach((opt) => {
         opt.classList.add('hide')
@@ -12,7 +12,7 @@ const openMobileMenu = () => {
 };
 const closeMobileMenu = () => {
     document.getElementById('mobile-menu').classList.remove('show');
-
+    document.querySelector('header').classList.remove('hide')
     let sections = document.querySelectorAll('section');
     sections.forEach((opt) => {
         opt.classList.remove('hide')
