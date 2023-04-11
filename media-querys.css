@@ -79,12 +79,12 @@
   }
 
   .text-wrapper {
-    grid-area: 1 span 1;
+    grid-area: 1 / span 1;
     order: 1;
   }
 
   .social-media {
-    grid-area: 0 span 1;
+    grid-area: 0 / span 1;
     flex-direction: column;
     order: 0;
   }
