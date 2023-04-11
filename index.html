@@ -26,7 +26,8 @@
 
             <a class="navbar-left" href="index.html">My Logo</a>
 
-            <img class="burguer-img-toggle" src="./icons/Icon - Menu.png" alt="burguer menu" />
+            <a href="#"> <img class="burguer-img-toggle" id="open-menu-button" src="./icons/Icon - Menu.png"
+                    alt="burguer menu"></a>
 
             <!-- add the desktop version items -->
             <ul class="noTagList navbar-menu-mobile navbar-right inter500">
@@ -38,7 +39,7 @@
         </nav>
     </header>
 
-    <section class="main-section">
+    <section class="main-section" id="portfolio">
 
         <div class="main">
 
@@ -94,7 +95,8 @@
 
     </section>
 
-    <section class="works">
+    <!-- Works section -->
+    <section class="works" id="works">
         <div class="works-title">
             <h2 class="section-works-title crete">My Recent Works</h2>
             <div class="works-title-div"></div>
@@ -262,8 +264,8 @@
         </div>
     </section>
 
-    <!-- main section -->
-    <section class="about">
+    <!-- about section -->
+    <section class="about" id="about">
         <!-- main -->
         <div class="about-me-wrapper">
 
@@ -336,7 +338,8 @@
 
     </section>
 
-    <section class="contact">
+    <!-- contact section -->
+    <section class="contact" id="contact">
         <div class="contact-wrapper">
 
             <h1 class="inter700">I'm always interested in hearing about new projects, so if you'd like to chat please
@@ -379,6 +382,34 @@
             </ul>
         </div>
     </footer>
+
+    <!-- menu-mobile-section -->
+    <nav id="mobile-menu" class="mobile-menu">
+        <div id="close-menu-button">
+            <a href="#"><img src="./icons/closeIcon.svg" alt="close menu" /></a>
+        </div>
+        <div class="mobile-menu-list-wrapper">
+            <ul id="mobile-menu-list">
+                <li class="noTagList mobile-menu-li">
+                    <a href="#works" class='mobile-menu-link inter700'>
+                        Portfolio
+                    </a>
+                </li>
+                <li class="noTagList mobile-menu-li">
+                    <a href="#about" class='mobile-menu-link inter700'>
+                        About
+                    </a>
+                </li>
+                <li class="noTagList mobile-menu-li">
+                    <a href="#contact" class='mobile-menu-link inter700'>
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="./script.js"></script>
 
 </body>
 
