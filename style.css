@@ -62,10 +62,12 @@ header {
   height: 44px;
   color: #fff;
 }
+
 .navbar-menu-toggle {
   background-color: var(--bg-header);
   height: 100vh;
 }
+
 .navbar-left,
 .navbar-right {
   color: #fff;
@@ -479,6 +481,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
 }
+
 .mobile-menu {
   display: flex;
   position: fixed;
@@ -492,10 +495,12 @@ footer {
   flex-direction: row-reverse;
   justify-content: space-between;
 }
-.show{
+
+.show {
   top: 0;
 }
-.hide{
+
+.hide {
   position: fixed;
   top: 100%;
 }

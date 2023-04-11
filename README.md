@@ -159,7 +159,7 @@ Git Hub Pages: use this instructions:  https://livecode247.com/deploying-a-stati
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[implement desktop version]**
+- [ ] **[implement popups]**
 - [ ] **[use another linter]**
 - [ ] **[implemented express or nest.js]**
 
