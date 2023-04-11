@@ -21,6 +21,9 @@
     font-size: 20px;
     font-weight: 600;
   }
+  .close-img-toggle{
+    display: none;
+  }
 
   .title-orange {
     margin: 0;

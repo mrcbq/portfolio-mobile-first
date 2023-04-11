@@ -62,7 +62,10 @@ header {
   height: 44px;
   color: #fff;
 }
-
+.navbar-menu-toggle {
+  background-color: var(--bg-header);
+  height: 100vh;
+}
 .navbar-left,
 .navbar-right {
   color: #fff;
@@ -475,4 +478,31 @@ footer {
 .footer-list {
   display: flex;
   justify-content: space-evenly;
+}
+.mobile-menu {
+  display: flex;
+  position: fixed;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #3c3a39;
+  padding: 28px;
+  gap: 20px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.show{
+  top: 0;
+}
+.hide{
+  position: fixed;
+  top: 100%;
+}
+.mobile-menu-link {
+  color: #fff5e1;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+  gap: 32px;
 }
