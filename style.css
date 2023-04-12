@@ -506,15 +506,6 @@ footer {
   align-self: self-end;
 }
 
-.show {
-  top: 0;
-}
-
-.hide {
-  position: fixed;
-  top: 100%;
-}
-
 .mobile-menu-list-wrapper {
   align-self: flex-start;
   width: 100%;
@@ -545,14 +536,16 @@ footer {
   font-size: 13px;
 }
 
-#popup-container {
+.popup-container {
   margin: 5em 7%;
   padding: 24px;
-  border: 1px solid;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* gap: 20px; */
-  /* flex-wrap: wrap; */
+  border: 1px solid #EBECF0;
+  background-color: #FFF;
+  position: fixed;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 #popup-head {
@@ -608,4 +601,13 @@ footer {
   display: flex;
   align-items: center;
   gap: 1em;
+}
+
+.show {
+  top: 0;
+}
+
+.hide {
+  position: fixed;
+  top: 100%;
 }

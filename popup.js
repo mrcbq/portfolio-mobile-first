@@ -1,67 +1,67 @@
 const works = [
-  {
-    id: 0,
-    name: 'Multi-Post Stories',
-    img: './images/img work alone.png',
-    altImg: 'Image of my project',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-    tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-    projectLink: '*',
-    demoLink: '*',
-  },
+    {
+        id: 0,
+        name: 'Multi-Post Stories',
+        img: './images/img work alone.png',
+        altImg: 'Image of my project',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
+        projectLink: '*',
+        demoLink: '*',
+    },
 
-  {
-    id: 1,
-    name: 'Profesional Art Printing Data',
-    img: './images/img work alone.png',
-    altImg: 'Image of my project',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    projectLink: '*',
-    demoLink: '*',
-  },
+    {
+        id: 1,
+        name: 'Profesional Art Printing Data',
+        img: './images/img work alone.png',
+        altImg: 'Image of my project',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
+        tech: ['HTML', 'Bootstrap', 'Ruby'],
+        projectLink: '*',
+        demoLink: '*',
+    },
 
-  {
-    id: 2,
-    name: 'Profesional Art Printing Data More',
-    img: './images/img work alone.png',
-    altImg: 'Image of my project',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    projectLink: '*',
-    demoLink: '*',
-  },
+    {
+        id: 2,
+        name: 'Profesional Art Printing Data More',
+        img: './images/img work alone.png',
+        altImg: 'Image of my project',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
+        tech: ['HTML', 'Bootstrap', 'Ruby'],
+        projectLink: '*',
+        demoLink: '*',
+    },
 
-  {
-    id: 3,
-    name: 'Data Dashboard Healthcare',
-    img: './images/img work alone.png',
-    altImg: 'Image of my project',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    projectLink: '*',
-    demoLink: '*',
-  },
-  {
-    id: 4,
-    name: 'Data Dashboard Healthcare',
-    img: './images/img work alone.png',
-    altImg: 'Image of my project',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    projectLink: '*',
-    demoLink: '*',
-  },
-  {
-    id: 5,
-    name: 'Data Dashboard Healthcare',
-    img: './images/img work alone.png',
-    altImg: 'Image of my project',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-    tech: ['HTML', 'Bootstrap', 'Ruby'],
-    projectLink: '*',
-    demoLink: '*',
-  },
+    {
+        id: 3,
+        name: 'Data Dashboard Healthcare',
+        img: './images/img work alone.png',
+        altImg: 'Image of my project',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
+        tech: ['HTML', 'Bootstrap', 'Ruby'],
+        projectLink: '*',
+        demoLink: '*',
+    },
+    {
+        id: 4,
+        name: 'Data Dashboard Healthcare',
+        img: './images/img work alone.png',
+        altImg: 'Image of my project',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
+        tech: ['HTML', 'Bootstrap', 'Ruby'],
+        projectLink: '*',
+        demoLink: '*',
+    },
+    {
+        id: 5,
+        name: 'Data Dashboard Healthcare',
+        img: './images/img work alone.png',
+        altImg: 'Image of my project',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
+        tech: ['HTML', 'Bootstrap', 'Ruby'],
+        projectLink: '*',
+        demoLink: '*',
+    },
 ];
 
 const worksContent = `<section class="works" id="works">
@@ -235,6 +235,19 @@ const worksContent = `<section class="works" id="works">
 </section>`;
 
 window.addEventListener('load', () => {
-  const worksContainer = document.querySelector('#worksContainer');
-  worksContainer.innerHTML += worksContent;
+    const worksContainer = document.querySelector('#worksContainer');
+    worksContainer.innerHTML += worksContent;
 });
+
+const showPopup = document.querySelector('#show-popup')
+const popupWindow = document.querySelector('#popup-container')
+const closePopup = document.querySelector('#popup-close-btn')
+
+showPopup.addEventListener('click', () => {
+    console.log('show popup click');
+    popupWindow.classList.add('show')
+})
+
+closePopup.addEventListener('click', () => {
+    popupWindow.classList.remove('show')
+})
