@@ -15,6 +15,13 @@
   font-family: "Crete Round", serif;
 }
 
+.crete400 {
+  font-family: "Crete Round", serif;
+  font-weight: 400;
+  color: #172B4D;
+  font-size: 32px;
+}
+
 .inter400 {
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -530,4 +537,70 @@ footer {
   line-height: 44px;
   text-decoration: none;
   margin: 24px;
+}
+
+.poppins600 {
+  font-family: "Poppins", sans-serif;
+  font-size: 600;
+  font-size: 13px;
+}
+
+#popup-container {
+  margin: 5em 7%;
+  padding: 24px;
+  border: 1px solid;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* gap: 20px; */
+  /* flex-wrap: wrap; */
+}
+
+#popup-head {
+  margin-bottom: 2em;
+}
+
+#popup-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+#popup-techs-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+#tech1, #tech2, #tech3 {
+  padding: 10px 12px;
+  border: 1px solid #DFE1E6;
+  color: #3C3A39;
+}
+
+#popup-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  overflow: hidden;
+}
+
+#popup-image {
+  object-fit: contain;
+  max-width: 450px;
+  flex: 1;
+}
+
+#popup-text-btns-wrapper {
+  /* max-width: 55%; */
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+#popup-btns {
+  display: flex;
+  gap: 2em;
+  justify-content: space-between;
 }

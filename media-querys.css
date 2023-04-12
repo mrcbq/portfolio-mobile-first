@@ -321,6 +321,10 @@
       opacity: 0;
     }
   }
+
+  #popup-btns {
+    justify-content: flex-start;
+  }
 }
 
 /* Small Screens */
