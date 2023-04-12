@@ -591,7 +591,6 @@ footer {
 }
 
 #popup-text-btns-wrapper {
-  /* max-width: 55%; */
   display: flex;
   flex-direction: column;
   flex: 2;
@@ -603,4 +602,10 @@ footer {
   display: flex;
   gap: 2em;
   justify-content: space-between;
+}
+
+#popup-live-btn, #popup-prj-btn {
+  display: flex;
+  align-items: center;
+  gap: 1em;
 }
