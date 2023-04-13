@@ -5,9 +5,12 @@ const works = [
         img: '/images/img work alone.png',
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-        tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
-        projectLink: '*',
-        demoLink: '*',
+        tech1: 'CSS',
+        tech2: 'HTML',
+        tech3: 'Bootstrap',
+        tech4: 'Ruby',
+        projectLink: '#',
+        demoLink: '#',
     },
 
     {
@@ -16,9 +19,11 @@ const works = [
         img: "./images/card-type1.svg",
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-        tech: ['HTML', 'Bootstrap', 'Ruby'],
-        projectLink: '*',
-        demoLink: '*',
+        tech1: 'HTML',
+        tech2: 'Bootstrap',
+        tech3: 'Ruby',
+        projectLink: '#',
+        demoLink: '#',
     },
 
     {
@@ -27,9 +32,11 @@ const works = [
         img: "./images/card-type2.svg",
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-        tech: ['HTML', 'Bootstrap', 'Ruby'],
-        projectLink: '*',
-        demoLink: '*',
+        tech1: 'HTML',
+        tech2: 'Bootstrap',
+        tech3: 'Ruby',
+        projectLink: '#',
+        demoLink: '#',
     },
 
     {
@@ -38,9 +45,11 @@ const works = [
         img: './images/card-type3.svg',
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-        tech: ['HTML', 'Bootstrap', 'Ruby'],
-        projectLink: '*',
-        demoLink: '*',
+        tech1: 'HTML',
+        tech2: 'Bootstrap',
+        tech3: 'Ruby',
+        projectLink: '#',
+        demoLink: '#',
     },
     {
         id: 4,
@@ -48,9 +57,11 @@ const works = [
         img: "./images/card-type1.svg",
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-        tech: ['HTML', 'Bootstrap', 'Ruby'],
-        projectLink: '*',
-        demoLink: '*',
+        tech1: 'HTML',
+        tech2: 'Bootstrap',
+        tech3: 'Ruby',
+        projectLink: '#',
+        demoLink: '#',
     },
     {
         id: 5,
@@ -58,9 +69,11 @@ const works = [
         img: "./images/card-type2.svg",
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-        tech: ['HTML', 'Bootstrap', 'Ruby'],
-        projectLink: '*',
-        demoLink: '*',
+        tech1: 'HTML',
+        tech2: 'Bootstrap',
+        tech3: 'Ruby',
+        projectLink: '#',
+        demoLink: '#',
     },
     {
         id: 6,
@@ -68,9 +81,11 @@ const works = [
         img: "./images/card-type3.svg",
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-        tech: ['HTML', 'Bootstrap', 'Ruby'],
-        projectLink: '*',
-        demoLink: '*',
+        tech1: 'HTML',
+        tech2: 'Bootstrap',
+        tech3: 'Ruby',
+        projectLink: '#',
+        demoLink: '#',
     },
 ];
 
@@ -244,52 +259,102 @@ const worksContent = `<section class="works" id="works">
 </div>
 </section>`;
 
-const showPopupWindow = document.querySelector('#show-popup')
-const popupWindow = document.querySelector('#popup-container')
-const closePopupBtn = document.querySelector('#popup-close-btn')
+const popupWindow = `    <div id="popup-container">
+<div id="popup-head">
+    <div id="popup-title-container">
+        <h2 id="popup-title" class="crete400"></h2>
+        <img id="popup-close-btn" src="./icons/closeIcon.svg" alt="close button">
+    </div>
+    <div id="popup-techs-container" class="poppins600">
+        <div id="tech1"></div>
+        <div id="tech2"></div>
+        <div id="tech3"></div>
+    </div>
+</div>
+<div id="popup-content">
+    <div id="popup-image-wrapper">
+        <img id="popup-image" src="" alt="portfolio image">
+    </div>
+    <div id="popup-text-btns-wrapper">
+        <p id="popup-description" class="inter400"></p>
+        <div id="popup-btns">
+            <a href="" id="popup-live-btn" class="see-prj inter700">
+                See live
+                <img src="./icons/liveIcon.svg" alt="live icon">
+            </a>
+            <a href="" id="popup-prj-btn" class="see-prj inter700">
+                See Source
+                <img src="./icons/ghIcon.svg" alt="github icon">
+            </a>
+        </div>
+    </div>
+</div>
+</div>`
+
 const footer = document.querySelector('footer')
 const header = document.querySelector('header')
 
 window.addEventListener('load', () => {
     const worksContainer = document.querySelector('#worksContainer');
     worksContainer.innerHTML += worksContent;
-    const seeProject = document.querySelectorAll('.see-prj.inter700')
 
+    const popupModal = document.querySelector('#popup-window');
+    popupModal.innerHTML += popupWindow;
+
+    const seeProject = document.querySelectorAll('.see-prj.inter700')
     for (let i = 0; i <= 6; i++) {
         seeProject[i].addEventListener('click', function () {
             showPopup(i)
         })
     }
+
+    const closePopupBtn = document.querySelector('#popup-close-btn')
+
+    const closePopup = () => {
+        popupModal.classList.remove('show')
+
+        const sections = document.querySelectorAll('section');
+        sections.forEach((opt) => {
+            opt.classList.remove('blur')
+        });
+        header.classList.remove('blur')
+        footer.classList.remove('blur')
+    }
+    closePopupBtn.addEventListener('click', closePopup)
+
+
+    const showPopup = (idx) => {
+        const popupTitle = document.querySelector('#popup-title')
+        popupTitle.innerHTML = works[idx].title
+
+        const popupImage = document.querySelector('#popup-image')
+        popupImage.setAttribute('src', works[idx].img)
+
+        const popupDescription = document.querySelector('#popup-description')
+        popupDescription.innerHTML = works[idx].description
+
+        const popupTech1 = document.querySelector('#tech1')
+        popupTech1.innerHTML = works[idx].tech1
+
+        const popupTech2 = document.querySelector('#tech2')
+        popupTech2.innerHTML = works[idx].tech2
+
+        const popupTech3 = document.querySelector('#tech3')
+        popupTech3.innerHTML = works[idx].tech3
+
+        const popupLivebtn = document.querySelector('#popup-live-btn')
+        popupLivebtn.setAttribute('href', works[idx].demoLink)
+
+        const popupPrjbtn = document.querySelector('#popup-prj-btn')
+        popupPrjbtn.setAttribute('href', works[idx].projectLink)
+
+        popupModal.classList.add('show')
+        const sections = document.querySelectorAll('section');
+        sections.forEach((opt) => {
+            opt.classList.add('blur');
+        });
+        header.classList.add('blur')
+        footer.classList.add('blur')
+    };
+
 });
-
-
-const showPopup = (idx) => {
-    const popupTitle = document.querySelector('#popup-title')
-    popupTitle.innerHTML = works[idx].title
-
-    const popupImage = document.querySelector('#popup-image')
-    popupImage.setAttribute('src', works[idx].img)
-
-    const popupDescription = document.querySelector('#popup-description')
-    popupDescription.innerHTML = works[idx].description
-
-    popupWindow.classList.add('show')
-    const sections = document.querySelectorAll('section');
-    sections.forEach((opt) => {
-        opt.classList.add('blur');
-    });
-    header.classList.add('blur')
-    footer.classList.add('blur')
-};
-
-const closePopup = () => {
-    popupWindow.classList.remove('show')
-    const sections = document.querySelectorAll('section');
-    sections.forEach((opt) => {
-        opt.classList.remove('blur')
-    });
-    header.classList.remove('blur')
-    footer.classList.remove('blur')
-}
-
-closePopupBtn.addEventListener('click', closePopup)
