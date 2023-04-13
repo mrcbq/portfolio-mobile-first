@@ -345,15 +345,15 @@ window.addEventListener('load', () => {
 
   const closePopupBtn = document.querySelector('#popup-close-btn');
 
-//   const closePopup = () => {
-//     popupModal.classList.remove('show');
+  const closePopup = () => {
+    popupModal.classList.remove('show');
 
-//     const sections = document.querySelectorAll('section');
-//     sections.forEach((opt) => {
-//       opt.classList.remove('blur');
-//     });
-//     header.classList.remove('blur');
-//     footer.classList.remove('blur');
-//   };
+    const sections = document.querySelectorAll('section');
+    sections.forEach((opt) => {
+      opt.classList.remove('blur');
+    });
+    header.classList.remove('blur');
+    footer.classList.remove('blur');
+  };
   closePopupBtn.addEventListener('click', closePopup);
 });
