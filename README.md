@@ -36,7 +36,7 @@ OPTIONAL SECTIONS:
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
+- [🤝 Contributors](#contributors)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
@@ -44,22 +44,24 @@ OPTIONAL SECTIONS:
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [setting a repo module 1] <a name="Portfolio Mobile first version"></a>
+# 📖 Portfolio Mobile First <a name="Portfolio Mobile first version"></a>
 
 > This is the first mobile version of my portfolio
 
-**[setting a repo module 1]** There is the first exercise for create a repo using the readme template from MS and setup a linter trought GH actions.
+**Portfolio Mobile First** There is the first exercise for create a portfolio web page app, using mobile firts modern techniques.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>Client
   <ul>
     <li>HTML</li>
-  </ul>
     <li>css</li>
+    <li>JavaScript</li>
+  </ul>
+    </summary>
 </details>
 
 <!-- Features -->
@@ -68,9 +70,9 @@ OPTIONAL SECTIONS:
 
 > Describe between 1-3 key features of the application.
 
-- **[Portfolio web version Using only html and css]**
-- **[Responsive Desing]**
-- **[using gh actions as a linter and hint as a local linter]**
+- **Portfolio web version Using only html and css**
+- **Mobile first, Responsive Desing**
+- **Using gh actions as a linter and hint as a local linter**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,7 +80,7 @@ OPTIONAL SECTIONS:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Please visit my application in following link.
+> **Please visit my application in following link.**
 
 - <p align="left"><a href="https://mrcbq.github.io/portfolio-mobile-first/">https://mrcbq.github.io/portfolio-mobile-first/</a></p>
 
@@ -122,7 +124,7 @@ This project has no test configured yet, no worries it an only a basic html and 
 ### Deployment
 
 You can deploy this project using:
-Git Hub Pages: use this instructions:  https://livecode247.com/deploying-a-static-html-and-css-site-using-github-pages
+Git Hub Pages: use this instructions: https://livecode247.com/deploying-a-static-html-and-css-site-using-github-pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -135,6 +137,14 @@ Git Hub Pages: use this instructions:  https://livecode247.com/deploying-a-stati
 - GitHub: [@mrcbq](https://github.com/mrcbq)
 - Twitter: [@mrcbq](https://twitter.com/mrcbq)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/mrcbq)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributors <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
 
 👤 **Joaquin Calle Aranzolo**
 
@@ -149,9 +159,12 @@ Git Hub Pages: use this instructions:  https://livecode247.com/deploying-a-stati
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/alvaro-iporre-martiez-501533124/)
 
 > 👤 **Gardimy Charles**
+
 - GitHub: [@Gardimy](https://github.com/Gardimy)
 - Twitter: [@gardyelontiga45](https://twitter.com/gardyelontiga45)
 - LinkedIn: [Gardimy charles](https://www.linkedin.com/in/gardimy-charles)
+
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,16 +175,6 @@ Git Hub Pages: use this instructions:  https://livecode247.com/deploying-a-stati
 - [ ] **[implement popups]**
 - [ ] **[use another linter]**
 - [ ] **[implemented express or nest.js]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,7 +190,7 @@ If you like this project consider give me a like.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to microverse 
+I would like to thank to microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,9 +205,6 @@ A: Think mobile first.
 
   - [Please copy the content and paste in your favorite editor, save as readme.md ]
 
-- **[How to ]**
-
-  - [...]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
