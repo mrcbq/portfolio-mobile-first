@@ -1,8 +1,8 @@
 const works = [
     {
         id: 0,
-        name: 'Multi-Post Stories',
-        img: './images/img work alone.png',
+        title: 'Multi-Post Stories',
+        img: '/images/img work alone.png',
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
         tech: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
@@ -12,8 +12,8 @@ const works = [
 
     {
         id: 1,
-        name: 'Profesional Art Printing Data',
-        img: './images/img work alone.png',
+        title: 'Profesional Art Printing Data More',
+        img: "./images/card-type1.svg",
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
         tech: ['HTML', 'Bootstrap', 'Ruby'],
@@ -23,8 +23,8 @@ const works = [
 
     {
         id: 2,
-        name: 'Profesional Art Printing Data More',
-        img: './images/img work alone.png',
+        title: 'Data Dashboard Healthcare',
+        img: "./images/card-type2.svg",
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
         tech: ['HTML', 'Bootstrap', 'Ruby'],
@@ -34,8 +34,8 @@ const works = [
 
     {
         id: 3,
-        name: 'Data Dashboard Healthcare',
-        img: './images/img work alone.png',
+        title: 'Website Portfolio',
+        img: './images/card-type3.svg',
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
         tech: ['HTML', 'Bootstrap', 'Ruby'],
@@ -44,8 +44,8 @@ const works = [
     },
     {
         id: 4,
-        name: 'Data Dashboard Healthcare',
-        img: './images/img work alone.png',
+        title: 'Profesional Art Printing Data More',
+        img: "./images/card-type1.svg",
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
         tech: ['HTML', 'Bootstrap', 'Ruby'],
@@ -54,8 +54,18 @@ const works = [
     },
     {
         id: 5,
-        name: 'Data Dashboard Healthcare',
-        img: './images/img work alone.png',
+        title: 'Data Dashboard Healthcare',
+        img: "./images/card-type2.svg",
+        altImg: 'Image of my project',
+        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
+        tech: ['HTML', 'Bootstrap', 'Ruby'],
+        projectLink: '*',
+        demoLink: '*',
+    },
+    {
+        id: 6,
+        title: 'Website Portfolio',
+        img: "./images/card-type3.svg",
         altImg: 'Image of my project',
         description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
         tech: ['HTML', 'Bootstrap', 'Ruby'],
@@ -234,20 +244,52 @@ const worksContent = `<section class="works" id="works">
 </div>
 </section>`;
 
+const showPopupWindow = document.querySelector('#show-popup')
+const popupWindow = document.querySelector('#popup-container')
+const closePopupBtn = document.querySelector('#popup-close-btn')
+const footer = document.querySelector('footer')
+const header = document.querySelector('header')
+
 window.addEventListener('load', () => {
     const worksContainer = document.querySelector('#worksContainer');
     worksContainer.innerHTML += worksContent;
+    const seeProject = document.querySelectorAll('.see-prj.inter700')
+
+    for (let i = 0; i <= 6; i++) {
+        seeProject[i].addEventListener('click', function () {
+            showPopup(i)
+        })
+    }
 });
 
-const showPopup = document.querySelector('#show-popup')
-const popupWindow = document.querySelector('#popup-container')
-const closePopup = document.querySelector('#popup-close-btn')
 
-showPopup.addEventListener('click', () => {
-    console.log('show popup click');
+const showPopup = (idx) => {
+    const popupTitle = document.querySelector('#popup-title')
+    popupTitle.innerHTML = works[idx].title
+
+    const popupImage = document.querySelector('#popup-image')
+    popupImage.setAttribute('src', works[idx].img)
+
+    const popupDescription = document.querySelector('#popup-description')
+    popupDescription.innerHTML = works[idx].description
+
     popupWindow.classList.add('show')
-})
+    const sections = document.querySelectorAll('section');
+    sections.forEach((opt) => {
+        opt.classList.add('blur');
+    });
+    header.classList.add('blur')
+    footer.classList.add('blur')
+};
 
-closePopup.addEventListener('click', () => {
+const closePopup = () => {
     popupWindow.classList.remove('show')
-})
+    const sections = document.querySelectorAll('section');
+    sections.forEach((opt) => {
+        opt.classList.remove('blur')
+    });
+    header.classList.remove('blur')
+    footer.classList.remove('blur')
+}
+
+closePopupBtn.addEventListener('click', closePopup)
