@@ -18,7 +18,7 @@
 .crete400 {
   font-family: "Crete Round", serif;
   font-weight: 400;
-  color: #172B4D;
+  color: #172b4d;
   font-size: 32px;
 }
 
@@ -534,14 +534,14 @@ footer {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 15px;
-  color: #3C3A39;
+  color: #3c3a39;
 }
 
 .popup-container {
   margin: 6% 7%;
   padding: 24px;
-  border: 2px solid #EBECF0;
-  background-color: #FFF;
+  border: 2px solid #ebecf0;
+  background-color: #fff;
   position: fixed;
   top: 100%;
   bottom: 0;
@@ -569,10 +569,12 @@ footer {
   gap: 8px;
 }
 
-#tech1, #tech2, #tech3 {
+#tech1,
+#tech2,
+#tech3 {
   padding: 10px 12px;
-  border: 1px solid #DFE1E6;
-  color: #3C3A39;
+  border: 1px solid #dfe1e6;
+  color: #3c3a39;
 }
 
 #popup-content {
@@ -606,7 +608,8 @@ footer {
   justify-content: space-between;
 }
 
-#popup-live-btn, #popup-prj-btn {
+#popup-live-btn,
+#popup-prj-btn {
   display: flex;
   align-items: center;
   gap: 1em;

@@ -1,92 +1,92 @@
 const works = [
-    {
-        id: 0,
-        title: 'Multi-Post Stories',
-        img: '/images/img work alone.png',
-        altImg: 'Image of my project',
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
-        tech1: 'CSS',
-        tech2: 'HTML',
-        tech3: 'Bootstrap',
-        tech4: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
+  {
+    id: 0,
+    title: 'Multi-Post Stories',
+    img: '/images/img work alone.png',
+    altImg: 'Image of my project',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
+    tech1: 'CSS',
+    tech2: 'HTML',
+    tech3: 'Bootstrap',
+    tech4: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
 
-    {
-        id: 1,
-        title: 'Profesional Art Printing Data More',
-        img: "./images/card-type1.svg",
-        altImg: 'Image of my project',
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-        tech1: 'HTML',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
+  {
+    id: 1,
+    title: 'Profesional Art Printing Data More',
+    img: './images/card-type1.svg',
+    altImg: 'Image of my project',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
+    tech1: 'HTML',
+    tech2: 'Bootstrap',
+    tech3: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
 
-    {
-        id: 2,
-        title: 'Data Dashboard Healthcare',
-        img: "./images/card-type2.svg",
-        altImg: 'Image of my project',
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-        tech1: 'HTML',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
+  {
+    id: 2,
+    title: 'Data Dashboard Healthcare',
+    img: './images/card-type2.svg',
+    altImg: 'Image of my project',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
+    tech1: 'HTML',
+    tech2: 'Bootstrap',
+    tech3: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
 
-    {
-        id: 3,
-        title: 'Website Portfolio',
-        img: './images/card-type3.svg',
-        altImg: 'Image of my project',
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-        tech1: 'HTML',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
-    {
-        id: 4,
-        title: 'Profesional Art Printing Data More',
-        img: "./images/card-type1.svg",
-        altImg: 'Image of my project',
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-        tech1: 'HTML',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
-    {
-        id: 5,
-        title: 'Data Dashboard Healthcare',
-        img: "./images/card-type2.svg",
-        altImg: 'Image of my project',
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-        tech1: 'HTML',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
-    {
-        id: 6,
-        title: 'Website Portfolio',
-        img: "./images/card-type3.svg",
-        altImg: 'Image of my project',
-        description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
-        tech1: 'HTML',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
+  {
+    id: 3,
+    title: 'Website Portfolio',
+    img: './images/card-type3.svg',
+    altImg: 'Image of my project',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
+    tech1: 'HTML',
+    tech2: 'Bootstrap',
+    tech3: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
+  {
+    id: 4,
+    title: 'Profesional Art Printing Data More',
+    img: './images/card-type1.svg',
+    altImg: 'Image of my project',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
+    tech1: 'HTML',
+    tech2: 'Bootstrap',
+    tech3: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
+  {
+    id: 5,
+    title: 'Data Dashboard Healthcare',
+    img: './images/card-type2.svg',
+    altImg: 'Image of my project',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
+    tech1: 'HTML',
+    tech2: 'Bootstrap',
+    tech3: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
+  {
+    id: 6,
+    title: 'Website Portfolio',
+    img: './images/card-type3.svg',
+    altImg: 'Image of my project',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry\'s standard.',
+    tech1: 'HTML',
+    tech2: 'Bootstrap',
+    tech3: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
 ];
 
 const worksContent = `<section class="works" id="works">
@@ -289,72 +289,71 @@ const popupWindow = `    <div id="popup-container">
         </div>
     </div>
 </div>
-</div>`
+</div>`;
 
-const footer = document.querySelector('footer')
-const header = document.querySelector('header')
+const footer = document.querySelector('footer');
+const header = document.querySelector('header');
 
 window.addEventListener('load', () => {
-    const worksContainer = document.querySelector('#worksContainer');
-    worksContainer.innerHTML += worksContent;
+  const worksContainer = document.querySelector('#worksContainer');
+  worksContainer.innerHTML += worksContent;
 
-    const popupModal = document.querySelector('#popup-window');
-    popupModal.innerHTML += popupWindow;
+  const popupModal = document.querySelector('#popup-window');
+  popupModal.innerHTML += popupWindow;
 
-    const seeProject = document.querySelectorAll('.see-prj.inter700')
-    for (let i = 0; i <= 6; i++) {
-        seeProject[i].addEventListener('click', function () {
-            showPopup(i)
-        })
-    }
+  const seeProject = document.querySelectorAll('.see-prj.inter700');
 
-    const closePopupBtn = document.querySelector('#popup-close-btn')
+  const showPopup = (idx) => {
+    const popupTitle = document.querySelector('#popup-title');
+    popupTitle.innerHTML = works[idx].title;
 
-    const closePopup = () => {
-        popupModal.classList.remove('show')
+    const popupImage = document.querySelector('#popup-image');
+    popupImage.setAttribute('src', works[idx].img);
 
-        const sections = document.querySelectorAll('section');
-        sections.forEach((opt) => {
-            opt.classList.remove('blur')
-        });
-        header.classList.remove('blur')
-        footer.classList.remove('blur')
-    }
-    closePopupBtn.addEventListener('click', closePopup)
+    const popupDescription = document.querySelector('#popup-description');
+    popupDescription.innerHTML = works[idx].description;
 
+    const popupTech1 = document.querySelector('#tech1');
+    popupTech1.innerHTML = works[idx].tech1;
 
-    const showPopup = (idx) => {
-        const popupTitle = document.querySelector('#popup-title')
-        popupTitle.innerHTML = works[idx].title
+    const popupTech2 = document.querySelector('#tech2');
+    popupTech2.innerHTML = works[idx].tech2;
 
-        const popupImage = document.querySelector('#popup-image')
-        popupImage.setAttribute('src', works[idx].img)
+    const popupTech3 = document.querySelector('#tech3');
+    popupTech3.innerHTML = works[idx].tech3;
 
-        const popupDescription = document.querySelector('#popup-description')
-        popupDescription.innerHTML = works[idx].description
+    const popupLivebtn = document.querySelector('#popup-live-btn');
+    popupLivebtn.setAttribute('href', works[idx].demoLink);
 
-        const popupTech1 = document.querySelector('#tech1')
-        popupTech1.innerHTML = works[idx].tech1
+    const popupPrjbtn = document.querySelector('#popup-prj-btn');
+    popupPrjbtn.setAttribute('href', works[idx].projectLink);
 
-        const popupTech2 = document.querySelector('#tech2')
-        popupTech2.innerHTML = works[idx].tech2
+    popupModal.classList.add('show');
+    const sections = document.querySelectorAll('section');
+    sections.forEach((opt) => {
+      opt.classList.add('blur');
+    });
+    header.classList.add('blur');
+    footer.classList.add('blur');
+  };
 
-        const popupTech3 = document.querySelector('#tech3')
-        popupTech3.innerHTML = works[idx].tech3
+  for (let i = 0; i <= 6; i += 1) {
+    seeProject[i].addEventListener('click', () => {
+      showPopup(i);
+    });
+  }
 
-        const popupLivebtn = document.querySelector('#popup-live-btn')
-        popupLivebtn.setAttribute('href', works[idx].demoLink)
+  const closePopupBtn = document.querySelector('#popup-close-btn');
 
-        const popupPrjbtn = document.querySelector('#popup-prj-btn')
-        popupPrjbtn.setAttribute('href', works[idx].projectLink)
+  const closePopup = () => {
+    popupModal.classList.remove('show');
 
-        popupModal.classList.add('show')
-        const sections = document.querySelectorAll('section');
-        sections.forEach((opt) => {
-            opt.classList.add('blur');
-        });
-        header.classList.add('blur')
-        footer.classList.add('blur')
-    };
-
+    const sections = document.querySelectorAll('section');
+    sections.forEach((opt) => {
+      opt.classList.remove('blur');
+    });
+    header.classList.remove('blur');
+    footer.classList.remove('blur');
+  };
+  closePopupBtn.addEventListener('click', closePopup);
 });
