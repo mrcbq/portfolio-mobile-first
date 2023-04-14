@@ -593,8 +593,10 @@ footer {
 
 #popup-image {
   /* object-fit: contain; */
+
   /* max-width: 450px; */
   max-height: 90vw;
+
   /* flex: 2; */
 }
 
@@ -608,7 +610,8 @@ footer {
 
 #popup-description {
   font-size: 16px;
-  text-justify: distribute;
+
+  /* text-justify: distribute; */
 }
 
 #popup-btns {

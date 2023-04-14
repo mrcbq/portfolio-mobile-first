@@ -1,108 +1,107 @@
 const works = [
-    {
-        id: 0,
-        title: 'Multi-Post Stories',
-        img: '/images/img-work-alone.png',
-        altImg: 'Image of my project',
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsa recusandae voluptates fugit nulla nesciunt architecto omnis impedit, dicta fugiat totam quis ipsum provident pariatur quaerat, possimus dolores cupiditate eligendi amet quam. Inventore suscipit necessitatibus itaque et nihil magni repellendus, eaque minus quos dignissimos obcaecati aut delectus, molestias nam ab?",
-        tech1: 'CSS',
-        tech2: 'HTML',
-        tech3: 'Bootstrap',
-        tech4: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
+  {
+    id: 0,
+    title: 'Multi-Post Stories',
+    img: '/images/img-work-alone.png',
+    altImg: 'Image of my project',
+    description:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsa recusandae voluptates fugit nulla nesciunt architecto omnis impedit, dicta fugiat totam quis ipsum provident pariatur quaerat, possimus dolores cupiditate eligendi amet quam. Inventore suscipit necessitatibus itaque et nihil magni repellendus, eaque minus quos dignissimos obcaecati aut delectus, molestias nam ab?',
+    tech1: 'CSS',
+    tech2: 'HTML',
+    tech3: 'Bootstrap',
+    tech4: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
 
-    {
-        id: 1,
-        title: 'Profesional Art Printing Data More',
-        img: './images/SnapshootPortfolio.svg',
-        altImg: 'Image of my project',
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsa recusandae voluptates fugit nulla nesciunt architecto omnis impedit, dicta fugiat totam quis ipsum provident pariatur quaerat, possimus dolores cupiditate eligendi amet quam. Inventore suscipit necessitatibus itaque et nihil magni repellendus, eaque minus quos dignissimos obcaecati aut delectus, molestias nam ab?",
-        tech1: 'HTML',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
+  {
+    id: 1,
+    title: 'Profesional Art Printing Data More',
+    img: './images/SnapshootPortfolio.svg',
+    altImg: 'Image of my project',
+    description:
+            'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsa recusandae voluptates fugit nulla nesciunt architecto omnis impedit, dicta fugiat totam quis ipsum provident pariatur quaerat, possimus dolores cupiditate eligendi amet quam. Inventore suscipit necessitatibus itaque et nihil magni repellendus, eaque minus quos dignissimos obcaecati aut delectus, molestias nam ab?',
+    tech1: 'HTML',
+    tech2: 'Bootstrap',
+    tech3: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
 
-    {
-        id: 2,
-        title: 'Data Dashboard Healthcare',
-        img: './images/SnapshootPortfolio.svg',
-        altImg: 'Image of my project',
-        description:
+  {
+    id: 2,
+    title: 'Data Dashboard Healthcare',
+    img: './images/SnapshootPortfolio.svg',
+    altImg: 'Image of my project',
+    description:
             "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsa recusandae voluptates fugit nulla nesciunt architecto omnis impedit, dicta fugiat totam quis ipsum provident pariatur quaerat, possimus dolores cupiditate eligendi amet quam. Inventore suscipit necessitatibus itaque et nihil magni repellendus, eaque minus quos dignissimos obcaecati aut delectus, molestias nam ab?",
-        tech1: 'HTML',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
+    tech1: 'HTML',
+    tech2: 'Bootstrap',
+    tech3: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
 
-    {
-        id: 3,
-        title: 'Website Portfolio',
-        img: './images/SnapshootPortfolio.svg',
-        altImg: 'Image of my project',
-        description:
+  {
+    id: 3,
+    title: 'Website Portfolio',
+    img: './images/SnapshootPortfolio.svg',
+    altImg: 'Image of my project',
+    description:
             "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsa recusandae voluptates fugit nulla nesciunt architecto omnis impedit, dicta fugiat totam quis ipsum provident pariatur quaerat, possimus dolores cupiditate eligendi amet quam. Inventore suscipit necessitatibus itaque et nihil magni repellendus, eaque minus quos dignissimos obcaecati aut delectus, molestias nam ab?",
-        tech1: 'HTML',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
-    {
-        id: 4,
-        title: 'Profesional Art Printing Data More',
-        img: './images/SnapshootPortfolio.svg',
-        altImg: 'Image of my project',
-        description:
+    tech1: 'HTML',
+    tech2: 'Bootstrap',
+    tech3: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
+  {
+    id: 4,
+    title: 'Profesional Art Printing Data More',
+    img: './images/SnapshootPortfolio.svg',
+    altImg: 'Image of my project',
+    description:
             "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsa recusandae voluptates fugit nulla nesciunt architecto omnis impedit, dicta fugiat totam quis ipsum provident pariatur quaerat, possimus dolores cupiditate eligendi amet quam. Inventore suscipit necessitatibus itaque et nihil magni repellendus, eaque minus quos dignissimos obcaecati aut delectus, molestias nam ab?",
-        tech1: 'HTML',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
-    {
-        id: 5,
-        title: 'Data Dashboard Healthcare',
-        img: './images/SnapshootPortfolio.svg',
-        altImg: 'Image of my project',
-        description:
+    tech1: 'HTML',
+    tech2: 'Bootstrap',
+    tech3: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
+  {
+    id: 5,
+    title: 'Data Dashboard Healthcare',
+    img: './images/SnapshootPortfolio.svg',
+    altImg: 'Image of my project',
+    description:
             "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsa recusandae voluptates fugit nulla nesciunt architecto omnis impedit, dicta fugiat totam quis ipsum provident pariatur quaerat, possimus dolores cupiditate eligendi amet quam. Inventore suscipit necessitatibus itaque et nihil magni repellendus, eaque minus quos dignissimos obcaecati aut delectus, molestias nam ab?",
-        tech1: 'HTML',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
-    {
-        id: 6,
-        title: 'Website Portfolio',
-        img: './images/SnapshootPortfolio.svg',
-        altImg: 'Image of my project',
-        description:
+    tech1: 'HTML',
+    tech2: 'Bootstrap',
+    tech3: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
+  {
+    id: 6,
+    title: 'Website Portfolio',
+    img: './images/SnapshootPortfolio.svg',
+    altImg: 'Image of my project',
+    description:
             "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ipsa recusandae voluptates fugit nulla nesciunt architecto omnis impedit, dicta fugiat totam quis ipsum provident pariatur quaerat, possimus dolores cupiditate eligendi amet quam. Inventore suscipit necessitatibus itaque et nihil magni repellendus, eaque minus quos dignissimos obcaecati aut delectus, molestias nam ab?",
-        tech1: 'HTML',
-        tech2: 'Bootstrap',
-        tech3: 'Ruby',
-        projectLink: '#',
-        demoLink: '#',
-    },
+    tech1: 'HTML',
+    tech2: 'Bootstrap',
+    tech3: 'Ruby',
+    projectLink: '#',
+    demoLink: '#',
+  },
 ];
 
-const footer = document.querySelector('footer');
-const header = document.querySelector('header');
 const work = document.querySelector('#works-container');
-const mainSection = document.querySelector('.main-section');
-const aboutSection = document.querySelector('.about');
-const sections = document.querySelector('section')
-
+// const footer = document.querySelector('footer');
+// const header = document.querySelector('header');
+// const mainSection = document.querySelector('.main-section');
+// const aboutSection = document.querySelector('.about');
+// const sections = document.querySelector('section');
 
 work.innerHTML += `
 <div class="first-work-great">
@@ -124,7 +123,7 @@ work.innerHTML += `
 `;
 const gridContainer = document.querySelector('#div-container');
 for (let i = 1; i < works.length; i += 1) {
-    gridContainer.innerHTML += `
+  gridContainer.innerHTML += `
     <div class="card-flex proArt card-type${i} card${i}">
         <div class="text-container card${i}-hover-noShow-desktop">
             <h3 class="card-title crete font-white">${works[i].title}</h3>
@@ -144,8 +143,8 @@ for (let i = 1; i < works.length; i += 1) {
 const seeProject = document.querySelectorAll('.see-prj.inter700');
 const popupContainer = document.querySelector('#popup-container');
 for (let i = 0; i <= 6; i += 1) {
-    seeProject[i].addEventListener('click', () => {
-        popupContainer.innerHTML = `
+  seeProject[i].addEventListener('click', () => {
+    popupContainer.innerHTML = `
         <div id="popup-head">
             <div id="popup-title-container">
                 <h2 id="popup-title" class="crete400">${works[i].title}</h2>
@@ -176,14 +175,14 @@ for (let i = 0; i <= 6; i += 1) {
         </div>
         `;
 
-        const closePopupBtn = document.querySelector('.popup-close-btn');
-        popupContainer.classList.add("show");
-        closePopupBtn.onclick = () => {
-            popupContainer.classList.remove('show');
-        }
-        // header.classList.add('blur');
-        // footer.classList.add('blur');
-        // mainSection.classList.add('blur');
-        // aboutSection.classList.add('blur');
-    });
+    const closePopupBtn = document.querySelector('.popup-close-btn');
+    popupContainer.classList.add('show');
+    closePopupBtn.onclick = () => {
+      popupContainer.classList.remove('show');
+    };
+    // header.classList.add('blur');
+    // footer.classList.add('blur');
+    // mainSection.classList.add('blur');
+    // aboutSection.classList.add('blur');
+  });
 }
