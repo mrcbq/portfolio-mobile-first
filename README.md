@@ -1,23 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
--->
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -78,7 +60,7 @@ OPTIONAL SECTIONS:
 
 <!-- live demo -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+### 🚀 Live Demo <a name="live-demo"></a>
 
 > **Please visit my application in following link.**
 

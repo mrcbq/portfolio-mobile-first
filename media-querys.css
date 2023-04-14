@@ -193,6 +193,27 @@
     transition: all 0.5s ease-in-out;
   }
 
+  .card-type4:hover {
+    background: url("./images/card-type1.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .card-type5:hover {
+    background-image: url("./images/card-type2.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .card-type6:hover {
+    background-image: url("./images/SnapshootPortfolio.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    transition: all 0.5s ease-in-out;
+  }
+
   .card-flex:hover .see-prj {
     display: block;
   }

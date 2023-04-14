@@ -547,6 +547,7 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
+  overflow: auto;
 }
 
 #popup-head {
@@ -569,12 +570,11 @@ footer {
   gap: 8px;
 }
 
-#tech1,
-#tech2,
-#tech3 {
+#tech {
   padding: 10px 12px;
   border: 1px solid #dfe1e6;
   color: #3c3a39;
+  font-size: 16px;
 }
 
 #popup-content {
@@ -584,10 +584,18 @@ footer {
   overflow: hidden;
 }
 
-#popup-image {
-  object-fit: contain;
-  max-width: 450px;
+#popup-image-wrapper {
   flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#popup-image {
+  /* object-fit: contain; */
+  /* max-width: 450px; */
+  max-height: 90vw;
+  /* flex: 2; */
 }
 
 #popup-text-btns-wrapper {
@@ -600,6 +608,7 @@ footer {
 
 #popup-description {
   font-size: 16px;
+  text-justify: distribute;
 }
 
 #popup-btns {
