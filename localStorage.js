@@ -10,4 +10,13 @@ inputs.forEach(input => {
   });
 });
 
-
+const storedValues = JSON.parse(localStorage.getItem('formValues'));
+if (storedValues) {
+  Object.keys(storedValues).forEach(key => {
+const input = document.querySelector(`[name="${key}"]`); 
+  if (input) {
+      input.value = storedValues[key];
+      console.log(storedValues[key]);
+     }
+  });
+}
