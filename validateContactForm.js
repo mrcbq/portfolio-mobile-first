@@ -10,6 +10,5 @@ form.addEventListener('submit', (event) => {
   if (mailValue === mailLowerCase) {
     alertMsg.style.display = 'inline';
     form.submit();
-  } 
-  
+  }
 });
